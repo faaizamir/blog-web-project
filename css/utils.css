@@ -1,0 +1,42 @@
+/* Colors Variable */
+
+:root {
+    --yellow: #fddb22;
+    --orange: #f15f27;
+}
+
+/* Utility Classes  */
+
+.w-80 {
+    max-width: 80vw;
+}
+
+.w-60 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.btn {
+    width: 70px;
+    padding: 7px 12px;
+    border-radius: 7px;
+    color: white;
+    background-color: var(--orange);
+    cursor: pointer;
+    border: 1px solid var(--yellow);
+    transition: all .3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: var(--yellow);
+    color: black;
+    border: 1px solid var(--orange);
+}
+
+.line{
+    height: 1px;
+    background-color: var(--orange);
+}

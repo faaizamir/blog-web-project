@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Ubuntu+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar  */
+
+
+.navigationBar {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px auto;
+
+}
+
+/* Left side of Navbar  */
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.left div {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.left a {
+    text-decoration: none;
+    padding: 0px 10px;
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+}
+
+.left a:hover {
+
+    font-weight: bolder;
+    color: var(--orange);
+    text-decoration: underline 1px black;
+}
+
+.left img {
+    width: 10vh;
+    height: 7vh;
+}
+
+/* Right Side of Navbar  */
+
+#search {
+    padding: 7px 12px;
+    border: 1px solid var(--orange);
+    border-radius: 7px;
+}
+
+#search:focus {
+    outline: none;
+    background-color: #9a452347;
+}
+
+/* Content  */
+
+.content {
+    height: 35vh;
+    display: flex;
+    gap: 50px;
+}
+
+/* Left Side Content  */
+
+.content-left {
+    padding: 25px;
+    align-self: center;
+    justify-self: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.content-left p {
+    padding-top: 20px;
+}
+
+.content-left h1:hover {
+    color: var(--orange);
+}
+
+/* Right Side Content  */
+
+.content-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img {
+    height: 25vh;
+    border: 2px solid var(--orange);
+    border-radius: 30px;
+}
+
+/* Article Section  */
+
+
+.home-articles {
+    position: relative;
+    margin: 20px auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.year-box {
+    position: absolute;
+    height: 10vh;
+    width: 10vw;
+    right: 5vw;
+    top: 5vh;
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    flex-direction: column;
+}
+
+.year-box label,
+.year-box h3 {
+    margin: 5px 0px;
+}
+
+.home-articles h1 {
+    margin-left: 1vw;
+    margin-bottom: 3vh;
+}
+
+.home-article {
+    height: 20vh;
+    width: 75vw;
+    display: flex;
+    align-items: center;
+    margin: 2vh auto;
+    gap: 20px;
+}
+
+.art-left img {
+    cursor: pointer;
+    height: 20vh;
+    border: 1px solid var(--orange);
+    border-radius: 8px;
+}
+
+.art-right p {
+    padding: 10px 0px;
+}
+
+.art-right a {
+    text-decoration: none;
+    color: black;
+}
+
+.art-right a:hover {
+    color: var(--orange);
+}
+
+.info {
+    margin-top: 5px;
+    font-size: .9rem;
+    cursor: default;
+    color: rgba(0, 0, 0, 0.680);
+}
+
+
+/* Footer  */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 5vh;
+    background-color: black;
+}
